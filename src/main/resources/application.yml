@@ -1,0 +1,13 @@
+server:
+  port: 8085
+logging:
+  level:
+    org.springframework.security: DEBUG
+spring:
+    redis:
+        host: localhost
+        password: qwe123
+        port: 6379
+security:
+    user:
+        password: password
